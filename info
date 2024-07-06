@@ -1,0 +1,262 @@
+{
+  "uuid": "75dec5a4186bc489ee04ce90d70637d8",
+  "path": "Offline/RGB",
+  "name": "RGB",
+  "content": "",
+  "created_at": "2024-07-05 22:39:42",
+  "updated_at": "2024-07-06 00:40:10",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "097b1b7b23a520450f8fa91451ae0a4f",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "bf9a890c90054e0e9b1ef6ef9428d294": 1,
+        "09b5753c7fbb45cbb2dcc6fbc232d7df": 3,
+        "518592ede2c344ef8e5425457600a61a": 1,
+        "d0f6958bc5b948b5828857c7997b8c9d": 4,
+        "8fb9475541074df79ce3bbde313e99c2": 1,
+        "89fe0cc9e9466c672edb25e2c7f5e2d4": 1,
+        "d53dd3a70a82db255b59b7e17aa3ff18": 1,
+        "1afcafee4ed94c10a51f6b5bdd271e57": 2,
+        "8f690ecd03c34e95851725a7a63479dc": 1,
+        "b6d0aedaf0104f47b6db0b79768c3a4c": 3,
+        "09162f66eed24a88971cb204a5aceff8": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "1uF",
+          1,
+          "CAP-TH_L12.0-W12.5-P10.00-D0.6",
+          "C1",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C914537",
+            "Manufacturer": "NDF(达孚)",
+            "Manufacturer Part": "CBB22-105J-520V",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "CBB22-105J-520V",
+            "puuid": "f5e6076f86a64ed2ba65a955aece68db",
+            "uuid": "518592ede2c344ef8e5425457600a61a"
+          }
+        ],
+        [
+          "4.7uF",
+          1,
+          "CAP-TH_BD10.0-P5.00-D1.0-FD",
+          "C2",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "CX(承兴)",
+            "Manufacturer Part": "KM475M400G13RR0VH2FP0",
+            "Supplier Part": "C21530",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "4.7uF 400V",
+            "puuid": "10740f144756421793e1ecc7520b3129",
+            "uuid": "89fe0cc9e9466c672edb25e2c7f5e2d4"
+          }
+        ],
+        [
+          "WJ2EDGVC-5.08-2P",
+          1,
+          "CONN-TH_WJ2EDGVC-5.08-2P",
+          "CN1",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "KANGNEX(康奈克斯电气)",
+            "Manufacturer Part": "WJ2EDGVC-5.08-2P",
+            "Supplier Part": "C8445",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "WJ2EDGVC-5.08-2P",
+            "puuid": "3879cac3c7ea4d55a39a4f6d2d4453d1",
+            "uuid": "d53dd3a70a82db255b59b7e17aa3ff18"
+          }
+        ],
+        [
+          "GBU606_C188292",
+          1,
+          "DIO-BG-TH_GBU",
+          "D1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C188292",
+            "Manufacturer": "FMS(美丽微)",
+            "Manufacturer Part": "GBU606",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "GBU606_C188292",
+            "puuid": "1899b1e141024cc0b3fdfbe4828df514",
+            "uuid": "bf9a890c90054e0e9b1ef6ef9428d294"
+          }
+        ],
+        [
+          "IRFZ44EPBF",
+          3,
+          "TO-220AB-3_L10.4-W4.5-P2.54-L",
+          "Q1,Q2,Q3",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C538074",
+            "Manufacturer": "Infineon(英飞凌)",
+            "Manufacturer Part": "IRFZ44EPBF",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "IRFZ44EPBF",
+            "puuid": "a01183b9491c48d6ae27d6d9061098df",
+            "uuid": "09b5753c7fbb45cbb2dcc6fbc232d7df"
+          }
+        ],
+        [
+          "220mΩ",
+          1,
+          "RES-TH_BD9.5-L22.0-P28.00-D1.0",
+          "R1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C216399",
+            "Manufacturer": "CCO(千志电子)",
+            "Manufacturer Part": "CR-L5W0.22Ω 5% P",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "CR-L5W0.22ΩJ",
+            "puuid": "bdcb21956cd146dfbbedffba9ba7c205",
+            "uuid": "8fb9475541074df79ce3bbde313e99c2"
+          }
+        ],
+        [
+          "SW1",
+          1,
+          "SW-TH_G-SWITCH_SS-12F30-G040",
+          "S1",
+          {
+            "Contributor": "Raul Hejja",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "SW1",
+            "Manufacturer Part": "",
+            "puuid": "1d1b7ff388c9484ca913dcda4deb9cdb",
+            "uuid": "8f690ecd03c34e95851725a7a63479dc"
+          }
+        ],
+        [
+          "1MΩ",
+          4,
+          "RES-TH_BD2.4-L6.3-P10.30-D0.6",
+          "U1,U7,U8,U9",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C1756033",
+            "Manufacturer": "YAGEO(国巨)",
+            "Manufacturer Part": "FMP100FRE52-1M",
+            "spiceSymbolName": "FMP100FRE52-1M",
+            "puuid": "2915f1f0a54941d7b912decfe617b47f",
+            "uuid": "d0f6958bc5b948b5828857c7997b8c9d"
+          }
+        ],
+        [
+          "Diodo zener 12V (Z1W12V)",
+          2,
+          "DIODO ZENER 12V (Z1W12V)",
+          "U2,U3",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "xavierci22",
+            "spiceSymbolName": "Diodo zener 12V (Z1W12V)",
+            "puuid": "0ab3fe56406441818578eb9feccfb761",
+            "uuid": "1afcafee4ed94c10a51f6b5bdd271e57"
+          }
+        ],
+        [
+          "2.2uF/63V",
+          3,
+          "2.2UF/63V",
+          "U4,U5,U6",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "R.M.Venkatraj",
+            "spiceSymbolName": "2.2uF/63V",
+            "puuid": "827d4204540446c384573fde94e7479f",
+            "uuid": "b6d0aedaf0104f47b6db0b79768c3a4c"
+          }
+        ],
+        [
+          "XH2.54-4",
+          1,
+          "CONN-TH_XH2.54-4",
+          "U10",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900012082",
+            "Manufacturer": "null",
+            "Manufacturer Part": "XH2.54-4",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "XH2.54-4",
+            "puuid": "47932d3f3bda45688b0a551341a681dd",
+            "uuid": "09162f66eed24a88971cb204a5aceff8"
+          }
+        ]
+      ],
+      "updateTime": 1720204986,
+      "createTime": 1720199382,
+      "histories": [],
+      "created_at": "2024-07-05 22:39:42",
+      "updated_at": "2024-07-06 00:13:06"
+    },
+    {
+      "uuid": "d1b7a11154ca9727a7ba8d6da7f9ce9c",
+      "puuid": "75dec5a4186bc489ee04ce90d70637d8",
+      "title": "PCB_RGB_2",
+      "filename": "PCB_RGB_2.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "f5e6076f86a64ed2ba65a955aece68db": 1,
+        "10740f144756421793e1ecc7520b3129": 1,
+        "3879cac3c7ea4d55a39a4f6d2d4453d1": 1,
+        "1899b1e141024cc0b3fdfbe4828df514": 1,
+        "a01183b9491c48d6ae27d6d9061098df": 3,
+        "bdcb21956cd146dfbbedffba9ba7c205": 1,
+        "1d1b7ff388c9484ca913dcda4deb9cdb": 1,
+        "2915f1f0a54941d7b912decfe617b47f": 4,
+        "0ab3fe56406441818578eb9feccfb761": 2,
+        "827d4204540446c384573fde94e7479f": 3,
+        "47932d3f3bda45688b0a551341a681dd": 1
+      },
+      "BOM": [],
+      "updateTime": 1720206610,
+      "createTime": 1720203387,
+      "histories": [],
+      "created_at": "2024-07-05 23:46:27",
+      "updated_at": "2024-07-06 00:40:10"
+    }
+  ],
+  "sort": [],
+  "title": "RGB",
+  "foldername": "RGB",
+  "schfilename": "RGB.json",
+  "schfilemtime": 1720204986552
+}
